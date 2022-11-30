@@ -7625,9 +7625,9 @@ parcelHelpers.export(exports, "thumbnailOnlyOptions", ()=>le);
 parcelHelpers.export(exports, "thumbnailUrl", ()=>ue);
 parcelHelpers.export(exports, "tiffBlocks", ()=>P);
 parcelHelpers.export(exports, "tiffExtractables", ()=>j);
-var process = require("process");
 var Buffer = require("buffer").Buffer;
 var global = arguments[3];
+var process = require("process");
 function e(e, t, s) {
     return t in e ? Object.defineProperty(e, t, {
         value: s,
